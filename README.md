@@ -1,11 +1,11 @@
-About kgen
-==========
+About kgen-feedstock
+====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/kgen-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/PalaeoCarb/Kgen
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/kgen-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python functions for calculating stoichiometric speciation constants for seawater.
 
