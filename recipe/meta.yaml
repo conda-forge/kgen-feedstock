@@ -1,5 +1,5 @@
 {% set name = "kgen" %}
-{% set version = "0.0.3" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/Kgen-{{ version }}.tar.gz
-  sha256: c9a8ee84827f75da7f696c8d696f8322e2dca470901030066cd8cbb588970f6c
+  sha256: 09379fd58f5fca67d92067d904067aa32630e471d5a9df8be669f87f60291e08
 
 build:
   noarch: python
@@ -21,7 +21,7 @@ requirements:
   run:
     - python >=3.6
     - numpy >=1.21.5
-    - pymyami ==2.0.2
+    - pymyami ==2.1.0
 
 test:
   imports:
