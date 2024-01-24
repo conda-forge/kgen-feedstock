@@ -1,5 +1,5 @@
 {% set name = "kgen" %}
-{% set version = "0.3.1" %}
+{% set version = "0.3.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/Kgen-{{ version }}.tar.gz
-  sha256: 4fd450e8386561feac80bea4041ed6e5849789b226f45ff8d1a02fd8c409627e
+  sha256: 8b280ccc42113cec8c1a3b6ca493fc499fccc6b1fca72031a803639a00390689
 
 build:
   noarch: python
